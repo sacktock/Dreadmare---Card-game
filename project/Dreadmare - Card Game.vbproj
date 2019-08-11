@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCAF266C-D388-4A11-B223-2FA645FB4111}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Dreadmare - Card Game</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Installation Files\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-GB</TargetCulture>
+    <ProductName>Dreadmare - Card Game</ProductName>
+    <PublisherName>Alex Goodall</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.1.2.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Dreadmare - Card Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Dreadmare - Card Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>815E5994A19300F2BA0C1D4BFC1123BE60D7384D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>EPQ classes_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\dragon_lord_by_peterprime_d5w0bxu___copy_256px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Background Music Player.Designer.vb">
+      <DependentUpon>Background Music Player.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Background Music Player.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlurrBackGround.Designer.vb">
+      <DependentUpon>BlurrBackGround.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlurrBackGround.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardDisplay.Designer.vb">
+      <DependentUpon>CardDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CardDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassLibary1.vb" />
+    <Compile Include="DiscardCards.Designer.vb">
+      <DependentUpon>DiscardCards.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiscardCards.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoverMessage.Designer.vb">
+      <DependentUpon>HoverMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HoverMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document.Designer.vb">
+      <DependentUpon>Document.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Document.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.vb">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingScreen.Designer.vb">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.vb">
+      <DependentUpon>Game.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OptionsDisplay.Designer.vb">
+      <DependentUpon>OptionsDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupMessage.Designer.vb">
+      <DependentUpon>PopupMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopupMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellDisplay.Designer.vb">
+      <DependentUpon>SpellDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpellDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageDisplay.Designer.vb">
+      <DependentUpon>MessageDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersusLoadingScreen.Designer.vb">
+      <DependentUpon>VersusLoadingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VersusLoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinnerDisplay.Designer.vb">
+      <DependentUpon>WinnerDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WinnerDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Background Music Player.resx">
+      <DependentUpon>Background Music Player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlurrBackGround.resx">
+      <DependentUpon>BlurrBackGround.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardDisplay.resx">
+      <DependentUpon>CardDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscardCards.resx">
+      <DependentUpon>DiscardCards.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoverMessage.resx">
+      <DependentUpon>HoverMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document.resx">
+      <DependentUpon>Document.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDisplay.resx">
+      <DependentUpon>OptionsDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupMessage.resx">
+      <DependentUpon>PopupMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellDisplay.resx">
+      <DependentUpon>SpellDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageDisplay.resx">
+      <DependentUpon>MessageDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersusLoadingScreen.resx">
+      <DependentUpon>VersusLoadingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinnerDisplay.resx">
+      <DependentUpon>WinnerDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aether_Dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akrambuela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alleyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autumn Dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood_knight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark_Dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_warden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darklurker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead_king%27s_ivy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dr._deadlift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon_Commander.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon_Paladin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon_Warlord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drakthar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dreadmare Instructions.rtf" />
+    <None Include="Resources\Ennrith.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ent_archer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ent_shaman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Epq References.rtf" />
+    <None Include="Resources\executioner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fairy Dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fox_archer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great_ent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guatzelin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hallowed Warlord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hell Drake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jadirrayis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knight_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_sun_soldier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lizard_rider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse_warrior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nergal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night_rider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shadow Drake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spirit_warrior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the_faceless_druid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thorkel Asvard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tormented_dregs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twin Knights.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zyrgym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deeproot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon_Dominion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endarken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enforcement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equilibrium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etheral_sacrifice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_stand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nullify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nullify_aura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pilgrimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_Tree_Blossom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rejuvinate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tainted_growth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unleash_nergal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20131013232328a0dls1vc9h66zvp3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\End_Turn_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuxpi.com.1490732288.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuxpi.com.1490732306.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuxpi.com.1490732416.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuxpi.com.1490732613.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eKE5D8H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantasy-background-wallpaper-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantasy-landscape-art-wallpaper-hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallup-22826.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laurel-crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointy-sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharped-teeth-skull %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharped-teeth-skull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laurel-crown %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-flag %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharped-teeth-skull %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointy-sword %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasty-grave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witch_character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desature_knight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desature_druid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desature_lord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desature_witch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon_lord_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\druidimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\praetorian_tercius_by_peterprime-d5ijpbl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonStock1d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonStock1d_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kingsroad_ui_elements.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\638_surf_frame_by_tigers_stock-d926rr4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\885216158_preview_7768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-flag %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-flag %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-flag %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\310 - World Map %28Loop%29_53337750_soundcloud.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\310_-_World_Map_Loop-53337750.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Draw Cards.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Card.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spell.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword-unsheathe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\369252__funwithsound__victory-celebration-movie-score.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\342895_kickhat_day-of-defeat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\216089_richerlandtv_magic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VSLoadingSCreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vs_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_credits_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_intructions_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-9864201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kings_blessing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\embody.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reinforce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skeleton_Mage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nergals_secret.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon_lord_by_peterprime_d5w0bxu___copy_256px.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replenish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon_lord_by_peterprime-d5w0bxu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\885216158_preview_59f44cadd087f4c675457d9ae18d90d66d1a08ab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overgrowth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unleash_wyvern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kingd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desmos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ennrith_Unleashed.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

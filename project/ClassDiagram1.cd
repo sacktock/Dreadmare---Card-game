@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsApplication1.Background_Music_Player" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAFCAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Background Music Player.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.BlurrBackGround" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BlurrBackGround.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.CardDisplay" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAIAAAAACAAAACAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>CardDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.DiscardCards" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGCAAZAAAAACEAAgCgAgAQAAAA1AQgAAEwiA=</HashCode>
+      <FileName>DiscardCards.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.Document" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEECAAIAAAAACAAIACAAAAAAAAAAIAAEAGFAA=</HashCode>
+      <FileName>Document.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.Game" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAzCCAgKtyOapo4QsEGRrZkS/UfYYXqUl0ZmkKIwdaQ=</HashCode>
+      <FileName>Game.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.HoverMessage" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECBAIIAAAACAAAACAAAAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>HoverMessage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.Launcher" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>P4f8gwo8Py8MIREGnBOAzDsHzu8xMCSJ1/NcAE4EYnI=</HashCode>
+      <FileName>Launcher.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.LoadingScreen" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAACAAAACAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>LoadingScreen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.MessageDisplay" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAIAAAAACAgAACAAQAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>MessageDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.OptionsDisplay" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQEAAAiACgQACCAAAAAgCABQAAABAAQAA=</HashCode>
+      <FileName>OptionsDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.PopupMessage" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAAIAAAQACAAAACAAEAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>PopupMessage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.SpellDisplay" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACAAAACAAAAAAEAAEAAAAAEAAA=</HashCode>
+      <FileName>SpellDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.VersusLoadingScreen" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAGCIAICAAgACAAAACgAAAAgCAAEAgAAAEAAA=</HashCode>
+      <FileName>VersusLoadingScreen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.WinnerDisplay" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAIAAAAACAAQgCgAAAQAAABEAQAAAEQAA=</HashCode>
+      <FileName>WinnerDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication1.My.MyApplication" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationEvents.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
