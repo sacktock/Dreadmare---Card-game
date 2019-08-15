@@ -26,7 +26,7 @@ To install the software, navigate to the 'Installing Files' sub-directory. Then 
 Testing
 -------
 
-This is an old project so unfortunately it doesn't use/support eslint.
+This is an old project so it doesn't use/support eslint currently.
 
 Additional Documentation
 ------------------------
