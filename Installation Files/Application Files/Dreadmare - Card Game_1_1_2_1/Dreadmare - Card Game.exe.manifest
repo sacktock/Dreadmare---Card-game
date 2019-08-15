@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Dreadmare - Card Game.exe" version="1.1.2.1" publicKeyToken="3e0e7480c61afb72" language="en-GB" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\dragon_lord_by_peterprime_d5w0bxu___copy_256px.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Dreadmare - Card Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Dreadmare - Card Game.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cwKYAyzJUqW/Iihe2u+wUkKIpKp3pCvbLaz2exrOqxI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClassLibrary1.dll" size="15872">
+      <assemblyIdentity name="ClassLibrary1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MDeXL1IXuzXg06KDbUYBJt5NEWhfWa06B/TI6WRO6TI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dreadmare - Card Game.exe" size="41881024">
+      <assemblyIdentity name="Dreadmare - Card Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ORFGRAesXGYL8vT/qQkHbWb2d7Jkkvk18I2oqRjwzNk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8jTlZWFsjNA6nu19QSFGbSuGwYmdYcfouPy6+/NLQxc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Dreadmare - Card Game.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\dragon_lord_by_peterprime_d5w0bxu___copy_256px.ico" size="132861">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>InXMjNv12yCg1nAlDMdBivrdtaTv1pmFfSPlj0a2l9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HACKER_MAN\alexw" issuerKeyHash="9751dd4936cdac6207f57d184238fc8e87f5ddb0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fNLSZtwR+6nfbadBcvGjUCtVNOdy7UFLA3HpPnEnFLk=</DigestValue></Reference></SignedInfo><SignatureValue>jstmvx5T04APAKwhPET2brbw9bPCS+r3YoggcHG0dR0U7LECPV1vrkk9tgchbFU/cBftC+3GpYSzq4r4cFluoDfi1fEzLv8GS360tk094ZAqZypv8+QncWJcvep6INOIdZkvM7XpULzZyB0KeBiYK98lOc7mz4fzoNJWzqoO/Vg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nqDrgt7inYKC2m6ZvGNO900InhBFznoSxk85TciSbFOhmHA33D497UENtSemcxQ3Kcnsp1bF0KopfELk9vPpyYHNvYiwb1+zWGbB4hVu0kB7s7jqCy+xbPEqgtEJW7nnh3VTdApYfzZoCEr0H5BNP4SqgfB6PBTv/nZjnQ1dbZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b91427713ee971034b41ed72e734552b50a3f17241a76ddfa9fb11dc66d2d27c" Description="" Url=""><as:assemblyIdentity name="Dreadmare - Card Game.exe" version="1.1.2.1" publicKeyToken="3e0e7480c61afb72" language="en-GB" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HACKER_MAN\alexw</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jg/+VaXS5O6GRDxWLYyeNO/NgGqz68C6aHZZdr9Ewyg=</DigestValue></Reference></SignedInfo><SignatureValue>d/4qsM/t4y6ZZpPy16LoyESh0asJ0VCbFwgFUtpRmew6Qov4rq+OgH0+F16+pESggJtCHUCiMyDzKcr+bURORN3iCiE6QOM5S4RomHxf9hZHO5EqAblJcZ6aCQrop/LslNFJGcJYzDnHV8apt+sj9NiWN/vJ/m4N+0ephCi8Uh4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nqDrgt7inYKC2m6ZvGNO900InhBFznoSxk85TciSbFOhmHA33D497UENtSemcxQ3Kcnsp1bF0KopfELk9vPpyYHNvYiwb1+zWGbB4hVu0kB7s7jqCy+xbPEqgtEJW7nnh3VTdApYfzZoCEr0H5BNP4SqgfB6PBTv/nZjnQ1dbZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQRnYibNkhMY5BSntiECCOGTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASABBAEMASwBFAFIAXwBNAEEATgBcAGEAbABlAHgAdzAeFw0xNzA3MDcxMDMwMjNaFw0xODA3MDcxNjMwMjNaMCsxKTAnBgNVBAMeIABIAEEAQwBLAEUAUgBfAE0AQQBOAFwAYQBsAGUAeAB3MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCeoOuC3uKdgoLabpm8Y073TQieEEXOehLGTzlNyJJsU6GYcDfcPj3tQQ21J6ZzFDcpyeynVsXQqil8QuT28+nJgc29iLBvX7NYZsHiFW7SQHuzuOoLL7Fs8SqC0QlbueeHdVN0Clh/NmgISvQfkE0/hKqB8Ho8FO/+dmOdDV1tnQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABV5b5KmT06AZZQO1YsEdJF8hwBEeqORCuJgC730mkvDkfWhyL5KAFtEBsZKQ71tqsc+vVLDOATgD+nCH+iXRjFHHlDrnIImvgOuUbF5TTB//UFSxeXx2P2pKWlgRFR+PP6Y4phExs2npQXDh7mGlZULn+35U3hYKHvH7zKgT1Sg</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
