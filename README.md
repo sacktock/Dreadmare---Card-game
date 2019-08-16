@@ -1,12 +1,12 @@
 Dreadmare - Card Game
 =====================
 
-project by Alex Goodall for Extended Project Qualification Level 3 (AQA)
+Project by Alex Goodall for Extended Project Qualification Level 3 (AQA).
 
 Overview
 --------
 
-This project is a piece of software that allows you to play the card game 'Dreadmare' against a basic AI.
+This project is a piece of software that allows you to play the card game 'Dreadmare' against a basic AI. Created using VB.Net forms.
 
 Prelims
 -------
@@ -21,7 +21,7 @@ To run, 'git clone' this repository into a suitable directory. Navigate to the d
 Installation
 ------------
 
-To install the software, navigate to the 'Installing Files' sub-directory. Then double click 'setup.exe' and follow the instructions on the installation wizard. More information can be found in the README.txt files within that directory.
+To install the software, navigate to the 'Installing Files' sub-directory. Then double click 'setup.exe' and follow the instructions on the installation wizard. More information can be found in the README.txt file within that directory.
 
 Testing
 -------
