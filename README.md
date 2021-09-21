@@ -35,11 +35,19 @@ For this project a research document was sumbitted alongside the code which can 
 
 Screenshots
 -----------
+**Game in progress**
+
 ![Image](./images/screenshot1.png)
+
+**Champion and Card Selection Screen**
 
 ![Image](./images/screenshot2.png)
 
+**Game Intro Screen**
+
 ![Image](./images/screenshot3.png)
+
+**Mulligan**
 
 ![Image](./images/screenshot4.png)
 
