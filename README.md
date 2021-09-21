@@ -33,6 +33,16 @@ Additional Documentation
 
 For this project a research document was sumbitted alongside the code which can be found in this directory. This document outlines the research steps and thought processes behind this project. An instructions file can also be found in this directory, this information is also integrated in the software.
 
+Screenshots
+-----------
+![Image](./images/screenshot1.png)
+
+![Image](./images/screenshot2.png)
+
+![Image](./images/screenshot3.png)
+
+![Image](./images/screenshot4.png)
+
 License
 -------
 
